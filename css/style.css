@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    color:#575757;
+    margin: 0;
 
 }
 .first-heading{
@@ -42,7 +44,7 @@ body{
     background-size: cover;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding:50px 150px 20px 20px;
     
 }
@@ -59,3 +61,133 @@ body{
 .about-half p{
     margin-bottom: 50px;
 }
+
+
+<!--Recipies Section-->
+
+
+.rcp-txt-sml{
+    font-weight: bold;
+    color: #575757;
+    width: 100%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.recipie-section{
+    text-align: center;
+    padding: 0px 300px 50px 300px;
+}
+.recipie-section h1{
+    font-size: 40px;
+}
+
+.recipie-list{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 8%;
+    display: flex;
+}
+
+.recipie-item{
+    border-radius: 25px;
+    box-shadow: 30px 30px 60px rgb(219, 218, 218);
+    text-align: center;
+    background-color: white;
+    margin: 2%;
+    padding: 0%;
+    height: 550px;
+    width: 30%;
+}
+#item-img{
+    padding-top:30px;
+    border-radius: 20px;
+    width: 307px;
+    height: 250px;
+}
+#item-title{
+    color: #575757;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0% 4% 0% 4%;
+}
+#item-text{
+    color: #575757;
+    text-align: left;
+    text-align: justify;
+    padding: 0% 4% 0% 4%;
+}
+
+
+<!--Recipies Section-->
+
+.social-div{
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(204, 202, 202);
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+.follower{
+    text-align: center;
+    width: 30%;
+}
+.flwr-txt{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.count-section{
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(204, 202, 202);
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;    
+}
+.col{
+    width:30%;
+    text-align:center
+}
+
+<!--Footer Section-->
+
+
+
+footer .footer{
+    padding-top: 2%;
+    height: 200px;
+    margin-bottom: 0;
+    background-color: #171C33;
+    width: 100%;
+    text-align: center;
+}
+#food-color{
+    color: #FB8D47;
+}
+#net-color{
+    color: #5B5B5B;
+}
+footer h4{
+    font-weight: lighter;
+    color: rgb(214, 217, 219);
+}
+
+footer{
+    padding-top: 2%;
+    height: 200px;
+    margin-bottom: 0;
+    background-color: #04060e;
+    width: 100%;
+    text-align: center;
+
+}
+footer .footer-txt{
+    text-align: center;
+}
+
