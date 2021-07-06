@@ -120,22 +120,8 @@ body{
 }
 
 
-<!--Recipies Section-->
+<!--Count Section-->
 
-.social-div{
-    width: 100%;
-    display: flex;
-    border-radius: 25px;
-    box-shadow: 10px 10px 20px rgb(204, 202, 202);
-    text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
-    
-}
-.follower{
-    text-align: center;
-    width: 30%;
-}
 .flwr-txt{
     font-weight: bold;
     font-size: 40px;
@@ -155,11 +141,70 @@ body{
     text-align:center
 }
 
+
+
+<!--Client Section-->
+
+.client-section{
+    text-align: center;
+    padding: 0px 300px 5px 300px;
+    margin-bottom: 200px;
+}
+.client-section h1{
+    font-size: 40px;
+}
+
+.client-list{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 8%;
+    display: flex;
+}
+
+.client-num{
+    border-radius: 25px;
+    box-shadow: 30px 30px 60px rgb(219, 218, 218);
+    text-align: center;
+    background-color: white;
+    margin: 2%;
+    padding: 0%;
+    height: 550px;
+    width: 30%;
+}
+.client-img{
+    padding-top:30px;
+    border-radius: 50%;
+    width: 307px;
+    height: 250px;
+}
+.client-name{
+    color: #575757;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0% 4% 0% 4%;
+}
+.compliment{
+    color: #575757;
+    text-align: left;
+    text-align: justify;
+    padding: 0% 4% 0% 4%;
+}
+#client-heading{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
 <!--Footer Section-->
 
 
 
 footer .footer{
+    margin-top: 200px;
     padding-top: 2%;
     height: 200px;
     margin-bottom: 0;
